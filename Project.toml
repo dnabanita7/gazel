@@ -1,0 +1,13 @@
+name = "gazel"
+uuid = "7417bab2-2c74-4eb0-9bc1-9feaf3cbd251"
+authors = ["Nabanita Dash", "Biswajit Ghosh", "Gautam Mishra"]
+version = "0.1.0"
+
+[compat]
+julia = "0.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
